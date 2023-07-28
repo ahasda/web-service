@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+      <!-- Favicons -->
+  <!-- <link href="assets/img/favicon.png" rel="icon"> -->
+  <!-- <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon"> -->
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <!-- <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet"> -->
+  <!-- <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet"> -->
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="main.css">
+
+
+  <script src="jquery.js"></script>
+  <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+  <!-- <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> -->
+ 
+
+
+</head>
+
+<style>
+
+
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .feature-box {
+  padding: 24px 20px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  transition: 0.3s;
+  height: 100%;
+}
+
+.features .feature-box h3 {
+  font-size: 18px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+}
+
+.features .feature-box i {
+  line-height: 0;
+  background: #ecf3ff;
+  padding: 4px;
+  margin-right: 10px;
+  font-size: 24px;
+  border-radius: 3px;
+  transition: 0.3s;
+}
+
+.features .feature-box:hover i {
+  background: #4154f1;
+  color: #fff;
+}
+
+.features .feture-tabs {
+  margin-top: 120px;
+}
+
+.features .feture-tabs h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+  .features .feture-tabs h3 {
+    font-size: 28px;
+  }
+}
+
+.features .feture-tabs .nav-pills {
+  border-bottom: 1px solid #eee;
+}
+
+.features .feture-tabs .nav-link {
+  background: none;
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+  color: #012970;
+  padding: 12px 0;
+  margin-right: 25px;
+  margin-bottom: -2px;
+  border-radius: 0;
+}
+
+.features .feture-tabs .nav-link.active {
+  color: #4154f1;
+  border-bottom: 3px solid #4154f1;
+}
+
+.features .feture-tabs .tab-content h4 {
+  font-size: 18px;
+  margin: 0;
+  font-weight: 700;
+  color: #012970;
+}
+
+.features .feture-tabs .tab-content i {
+  font-size: 24px;
+  line-height: 0;
+  margin-right: 8px;
+  color: #4154f1;
+}
+
+.features .feature-icons {
+  margin-top: 120px;
+}
+
+.features .feature-icons h3 {
+  color: #012970;
+  font-weight: 700;
+  font-size: 32px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .features .feature-icons h3 {
+    font-size: 28px;
+  }
+}
+
+.features .feature-icons .content .icon-box {
+  display: flex;
+}
+
+.features .feature-icons .content .icon-box h4 {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
+  color: #012970;
+}
+
+.features .feature-icons .content .icon-box i {
+  font-size: 44px;
+  line-height: 44px;
+  color: #0245bc;
+  margin-right: 15px;
+}
+
+.features .feature-icons .content .icon-box p {
+  font-size: 15px;
+  color: #848484;
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.services .service-box {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+.services .service-box .icon {
+  font-size: 36px;
+  padding: 40px 20px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 25px;
+  display: inline-block;
+  line-height: 0;
+  transition: 0.3s;
+}
+
+.services .service-box h3 {
+  color: #444444;
+  font-weight: 700;
+}
+
+.services .service-box .read-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.services .service-box .read-more i {
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.services .service-box.blue {
+  border-bottom: 3px solid #2db6fa;
+}
+
+.services .service-box.blue .icon {
+  color: #2db6fa;
+  background: #dbf3fe;
+}
+
+.services .service-box.blue .read-more {
+  color: #2db6fa;
+}
+
+.services .service-box.blue:hover {
+  background: #2db6fa;
+}
+
+.services .service-box.orange {
+  border-bottom: 3px solid #f68c09;
+}
+
+.services .service-box.orange .icon {
+  color: #f68c09;
+  background: #fde3c4;
+}
+
+.services .service-box.orange .read-more {
+  color: #f68c09;
+}
+
+.services .service-box.orange:hover {
+  background: #f68c09;
+}
+
+.services .service-box.green {
+  border-bottom: 3px solid #08da4e;
+}
+
+.services .service-box.green .icon {
+  color: #08da4e;
+  background: #cffddf;
+}
+
+.services .service-box.green .read-more {
+  color: #08da4e;
+}
+
+.services .service-box.green:hover {
+  background: #08da4e;
+}
+
+.services .service-box.red {
+  border-bottom: 3px solid #e9222c;
+}
+
+.services .service-box.red .icon {
+  color: #e9222c;
+  background: #fef7f8;
+}
+
+.services .service-box.red .read-more {
+  color: #e9222c;
+}
+
+.services .service-box.red:hover {
+  background: #e9222c;
+}
+
+.services .service-box.purple {
+  border-bottom: 3px solid #b50edf;
+}
+
+.services .service-box.purple .icon {
+  color: #b50edf;
+  background: #f8e4fd;
+}
+
+.services .service-box.purple .read-more {
+  color: #b50edf;
+}
+
+.services .service-box.purple:hover {
+  background: #b50edf;
+}
+
+.services .service-box.pink {
+  border-bottom: 3px solid #f51f9c;
+}
+
+.services .service-box.pink .icon {
+  color: #f51f9c;
+  background: #feecf7;
+}
+
+.services .service-box.pink .read-more {
+  color: #f51f9c;
+}
+
+.services .service-box.pink:hover {
+  background: #f51f9c;
+}
+
+.services .service-box:hover h3,
+.services .service-box:hover p,
+.services .service-box:hover .read-more {
+  color: #fff;
+}
+
+.services .service-box:hover .icon {
+  background: #fff;
+}
+</style>
+
+
+<body>
+    
+      <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container-fluid bg-info" style="">
+
+      <div class="row justify-content-center">
+        <div class="col-xl-9 d-flex align-items-center justify-content-lg-between">
+          <h1 class="logo me-auto me-lg-0"><a href="index.html" style="text-decoration: none;">KnightOne</a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+              <li><a class="nav-link scrollto" href="#about">About</a></li>
+              <li><a class="nav-link scrollto" href="#services">Services</a></li>
+              <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link scrollto" href="#pricing">Pricing</a></li>
+              <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+                <ul>
+                  <li><a href="#">Drop Down 1</a></li>
+                  <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                    <ul>
+                      <li><a href="#">Deep Drop Down 1</a></li>
+                      <li><a href="#">Deep Drop Down 2</a></li>
+                      <li><a href="#">Deep Drop Down 3</a></li>
+                      <li><a href="#">Deep Drop Down 4</a></li>
+                      <li><a href="#">Deep Drop Down 5</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="#">Drop Down 2</a></li>
+                  <li><a href="#">Drop Down 3</a></li>
+                  <li><a href="#">Drop Down 4</a></li>
+                </ul>
+              </li>
+              <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav><!-- .navbar -->
+
+          <a href="#about" class="get-started-btn scrollto" style="text-decoration: none;">Get Started</a>
+        </div>
+      </div>
+
+    </div>
+  </header><!-- End Header -->
+
+    				
+	<div class="container-fluid">
+		<div class="row">
+			
+			<div class="col-sm-6 bg-dark" style="padding-bottom:70px; padding-left:80px; padding-top:100px;">
+				<h1 class="text-white" style="margin-top:50px;" data-aos="slide-right" data-aos-delay="600" data-aos-duration="1000">SEO Services That Turn Your<br>Leads Into Genuine Customers</h1>
+
+				<p class="text-white" style="font-size:16px;" data-aos="slide-left" data-aos-delay="600" data-aos-duration="1000">The greatest services are offered by the best SEO company in India, GC Digital, at competitive rates. We implemented the entire digital marketing plan, starting with conceptualization and ending with the last-degree execution. Our team uses cutting-edge SEO services supported by an empowered digital strategy to boost engagement and search engine positioning for approved keywords and long-tail phrases that will help your site succeed. You have found the right partner if you are looking for the top digital marketing agency. We'll work with you to achieve your marketing goals and give your business the boost you've always desired.<br>
+					Bootstrap, the world's most popular frot-end open source tooledit</p>
+				<a href="#" class="btn btn-primary" style="font-weight: 600;" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">Get Started</a>
+				<a href="#" class="btn btn-warning" style="font-weight: 600;" data-aos="fade-left" data-aos-delay="600" data-aos-duration="1000">Learn More</a> 
+			</div>
+
+
+			<div class="col-sm-6 bg-dark" style="padding-bottom:40px; padding-top:100px;" >
+				<img src="img/SEO-Services.svg" alt="" height="450vh" width="100%" data-aos="slide-down" data-aos-delay="600" data-aos-duration="1000">
+			</div>
+
+
+            <div class="row" style="padding-top: 40px; padding-bottom: 20px;">
+                <div class="col-12">
+                  <center>
+                    <h2 style="font-weight: 700; padding-bottom: 20px;" data-aos="zoom-in-down" data-aos-delay="100">Key Features of SEO Services</h2>
+                    <h3 data-aos="zoom-in-up" data-aos-delay="100">Ratione mollitia eos ab laudantium rerum beatae quo</h3>
+                  </center>
+                </div>
+
+
+                        <!-- Feature Icons -->
+        <div class="row feature-icons" data-aos="fade-up">
+         
+
+          <div class="row">
+
+            <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="1000">
+              <img src="img/features-3.png" class="img-fluid p-4" alt="" style="  width: 100%;">
+            </div>
+
+            <div class="col-xl-8 d-flex content">
+
+                <div class="row">
+
+                  <div class="col-6" data-aos="zoom-in-up" data-aos-delay="500" data-aos-duration="1000">
+                    <h2>Keyword Research</h2>
+                    <p>Keyword research is the foremost step for a successful SEO campaign, as researching the keywords will assist you in higher recognizing your goal audience. That’s because keyword studies offer you a perception of what clients are looking for and the precise phrases and terms they use. At GC Digital, we help you to determine the strategic keywords to target the audience. At our platform, we provide you with specific search data in order to get relevant and strong content for your site. We always strive to focus on keyword data to hone the insights for a successful campaign.</p>
+                  </div>
+                  <div class="col-6" data-aos="zoom-in-down" data-aos-delay="500" data-aos-duration="1000">
+                      <h2>Web Marketing Analytics</h2>
+                      <p>Web marketing analytics is the tool for measuring, administering and analyzing marketing strategies to optimize its effectiveness and stand tall among its competitors. To get the knowledge and understanding of marketing analytics, marketers need to be technically efficient in their works. Being the best SEO Company in India, we at GC Digital understand how to target the audience and retain them, thus saving them time and money. Thus we can serve you with the best web marketing analytics that can</p>
+                  </div>
+
+
+
+                  <div class="col-6" data-aos="flip-down" data-aos-delay="500" data-aos-duration="1000">
+                    <h2>Link Building</h2>
+                    <p>At GC Digital, we carve out a solid strategy that assists you to earn high-quality links. We strongly focus on link building as it helps in- Getting a higher ranking on Google: – with a proper link-building strategy one can easily get good rankings in search results to achieve better results. Google will find new pages for your site: – with assisting technology if you want to increase your reach you have to build links to your site in order to assist Google to explore new pages to help you earn a higher ranking. Raising Reliability: – building links proves to be a significant factor in determining suitable rankings to your site thereby link building provides a platform of growth with an ultimate goal of raising reliability. Grasping Targeted Audience:- by increasing the number of high-quality links to your sites, you can easily grasp more audience and can expand your area of growth.</p>
+                  </div>
+                  <div class="col-6" data-aos="flip-up" data-aos-delay="500" data-aos-duration="1000">
+                    <h2>Competitive Analysis</h2>
+                    <p>Being the Top Digital Marketing Company, we focus on competitive analysis, which is executed to differentiate the characteristics and shortcomings of different marketplace players. Our crew of committed people will assist you to study your benchmarks, trap up with enterprise and marketplace trends, assist you in figuring out your strengths and weaknesses, replace your advertising and marketing mix, and refine your desires to make you live up to date on competitor’s marketplace position. Competitive analysis assists you in defining a competitive edge for sustainable growth. At GC Digital, we help you learn the basics of competitive analysis to create sustainable revenue and to identify your competition.</p>
+                  </div>
+
+                </div>
+
+            </div>
+
+            
+            
+            </div>
+          </div>
+
+        </div><!-- End Feature Icons -->
+
+      </div>
+
+    </section><!-- End Features Section -->
+
+
+
+
+ <!-- ======= Services Section ======= -->
+ <section id="services" class="services">
+
+  <div class="container" data-aos="fade-up">
+
+    <header class="section-header">
+      <center>
+      <h2 style="font-size: 60px; font-weight: 600;">Services</h2>
+      <p>Veritatis et dolores facere numquam et praesentium</p>
+    </center>
+    </header>
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-box blue">
+          <i class="ri-discuss-line icon"></i>
+          <h3>Nesciunt Mete</h3>
+          <p>Provident nihil minus qui consequatur non omnis maiores. Eos accusantium minus dolores iure perferendis tempore et consequatur.</p>
+          <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-box orange">
+          <i class="ri-discuss-line icon"></i>
+          <h3>Eosle Commodi</h3>
+          <p>Ut autem aut autem non a. Sint sint sit facilis nam iusto sint. Libero corrupti neque eum hic non ut nesciunt dolorem.</p>
+          <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-box green">
+          <i class="ri-discuss-line icon"></i>
+          <h3>Ledo Markt</h3>
+          <p>Ut excepturi voluptatem nisi sed. Quidem fuga consequatur. Minus ea aut. Vel qui id voluptas adipisci eos earum corrupti.</p>
+          <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-box red">
+          <i class="ri-discuss-line icon"></i>
+          <h3>Asperiores Commodi</h3>
+          <p>Non et temporibus minus omnis sed dolor esse consequatur. Cupiditate sed error ea fuga sit provident adipisci neque.</p>
+          <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-box purple">
+          <i class="ri-discuss-line icon"></i>
+          <h3>Velit Doloremque.</h3>
+          <p>Cumque et suscipit saepe. Est maiores autem enim facilis ut aut ipsam corporis aut. Sed animi at autem alias eius labore.</p>
+          <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+        <div class="service-box pink">
+          <i class="ri-discuss-line icon"></i>
+          <h3>Dolori Architecto</h3>
+          <p>Hic molestias ea quibusdam eos. Fugiat enim doloremque aut neque non et debitis iure. Corrupti recusandae ducimus enim.</p>
+          <a href="#" class="read-more"><span>Read More</span> <i class="bi bi-arrow-right"></i></a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+</section><!-- End Services Section -->
+
+
+
+<!-- ======= Footer ======= -->
+
+    </div>
+
+
+		</div>
+	</div>
+	   	
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
